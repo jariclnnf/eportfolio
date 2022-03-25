@@ -1,0 +1,101 @@
+ body {
+                background-color: beige;
+                text-align: center;
+                font-family:cursive;
+            }
+
+.aboutme p{
+     background-color: burlywood;
+    text-align: center;
+     display: inline-block;
+    width: 700px;
+    height: 800px;
+        
+}
+h1{
+                font-size: normal;
+                font-size: 36px;
+            }
+.nav a{ 
+                margin: 55px;
+                font-family:cursive;
+                text-decoration: none;
+                color: saddlebrown;
+                
+            }
+            .nav{
+                border: 5px solid black;
+                background-color: aliceblue;
+            }
+.title{
+            font-size: 40px;
+        }
+.gallary_section{
+            background-color: bisque;
+            border: 1px solid grey;
+            margin-bottom: 2%;
+            border-width: medium;  
+    max-width: 33%;
+    display: inline-block;
+        
+        }
+.gallary_section img{
+    max-width: 350px;
+    border: 5px solid burlywood;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: burlywood;
+}
+
+.audio{
+    max-width: 100%;
+        
+}
+.gallary_section p{
+    margin: 2%;
+    background-color: aliceblue;
+    
+        
+}
+
+.main_section img{
+    width: 250px;
+    height: 250px;
+   
+}
+
+.main_section h3{
+    font-size: 22px;
+    margin-top: 30%;
+    
+}
+.main_section{
+     display: inline-block;
+    background-color: darkgray;
+    
+
+    
+}
+
+.main_section audio{
+    display: block;
+    height: 250px;
+    width: 250px;
+    margin-bottom: -20%;
+}
+
+.main_section_game{
+    margin-bottom: -80%;
+    width: 100px;
+    
+    height: 100px;
+}
+
+.abmeimg {
+    margin-top: 2%;
+    margin-left: 7%;
+    display: block;
+   width: 600px;
+    height: 600px;
+    
+}
