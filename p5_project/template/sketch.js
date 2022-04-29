@@ -42,5 +42,8 @@ function draw() {
   ellipse(295,48,30,30);
   
   text("It's a raining day...🌧", 100, 330);
+  //Add interactivity,red circle follow mouse
+  fill(255, 0, 0, 100);       
+  ellipse(mouseX, mouseY, 50, 50);    
 }
   
