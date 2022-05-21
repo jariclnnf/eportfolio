@@ -5,13 +5,18 @@
             }
 
 .aboutme p{
+    padding-top: 15px;
     background-color: burlywood;
     text-align: center;
     display: inline-block;
     width: 700px;
-    height: 800px;
-        
+    height: 770px;
+    padding-bottom: 15px;
 }
+#aboutmeimg{
+    padding: 13px;
+}
+
 h1{
     font-size: normal;
     font-size: 36px;
@@ -20,19 +25,21 @@ h1{
     margin: 55px;
     font-family:cursive;
     text-decoration: none;
-    color: saddlebrown;
+    color: #182232;
                 
             }
 .nav{
-    border: 5px solid black;
-    background-color: aliceblue;
+    margin-top: -1%;
+    width: 100%;
+    border: 2px solid #353E2E;
+    background-color: burlywood;
             }
 .title{
     font-size: 40px;
         }
 .gallary_section{
     background-color: bisque;
-    border: 1px solid grey;
+    border: 5px solid #A27C77;
     margin-bottom: 2%;
     border-width: medium;  
     max-width: 33%;
@@ -41,7 +48,7 @@ h1{
         }
 .gallary_section img{
     max-width: 350px;
-    border: 5px solid burlywood;
+    border: 2px solid burlywood;
     border-radius: 4px;
     padding: 5px;
     background-color: burlywood;
@@ -64,8 +71,9 @@ h1{
 }
 
 .main_section img{
-    width: 250px;
-    height: 250px;
+    width: 550px;
+    height: 550px;
+    padding-top: 10px;
    
 }
 
@@ -76,30 +84,24 @@ h1{
 }
 .main_section{
     display: inline-block;
-    background-color: darkgray;
+    background-color: #A27C77;
+    height: 645px;
+    width: 600px;
+     text-align: center;
     
-
     
 }
+ .main_section iframe{
+     width: 550px;
+    height: 550px;
+        
+    }
 
-.main_section audio{
-    display: block;
-    height: 250px;
-    width: 250px;
-    margin-bottom: -20%;
-}
-
-.main_section_game{
-    margin-bottom: -80%;
-    width: 100px;
-    
-    height: 100px;
-}
 
 #animationjs{
     width: 350px;
-    height: 325px;
-    border: 5px solid burlywood;
+    height: 324px;
+    border: 2px solid burlywood;
     border-radius: 4px;
     padding: 5px;
     background-color: burlywood;
@@ -133,4 +135,9 @@ h1{
 }
 .links h3{
     margin-bottom: -0.2%
+}
+/*---------footer-----------*/
+footer{
+    border-top: 2px solid #182232;
+    margin-top: 110px;
 }
