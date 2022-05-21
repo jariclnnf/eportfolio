@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>
             JinFeng's Homepage
         </title>
@@ -12,26 +13,90 @@
         <a href="index.html">Home</a> &emsp;
         <a href="aboutme.html">About Me</a>&emsp;
         <a href="gallery.html">Gallery</a>
+        <a href="socialcause.html">Social Cause</a>
         </h3>
         <h1>JinFeng Lin</h1>
         <h2>JinFeng's Artwork</h2>
         <p>I'll show my art work in this website.</p>
-    <div class="main_section">
-        <img src="image/JinFeng_Lin_selfie600.jpg" alt="raster image">
-        <h3 class="title">Raster Image</h3>
-    </div>
-    <div class="main_section">
-        <img src="image/JinFeng_Lin_vector_600.png" alt="vector image">
-        <h3 class="title">Vector Image</h3>
-    </div>
-    <div class="main_section audio">
-        <img class="main_section_game" src="image/Game.jpeg" alt="game">
-        <audio controls>
-            
-        <source src="BK_NETS.mp3">
-        </audio>
-        <h3 class="title">Audio Project</h3>
-            </div>
-        
+   <div class="slideshow-container main_section">
+
+<div class="mySlides">
+ 
+  <img src="image/JinFeng_Lin_selfie600.jpg" >
+  <div class="text">Raster Image Selfie</div>
+     <div class="numbertext">1 / 5</div>
+</div>
+
+<div class="mySlides">
+  
+  <img src="image/JinFeng_Lin_vector_600.png" >
+  <div class="text">Vector Image</div>
+    <div class="numbertext">2 / 5</div>
+</div>
+
+<div class="mySlides">
+  
+  <img src="image/Game.jpeg" >
+  <div class="text">Brooklyn Net</div>
+    <div class="numbertext">3 / 5</div>
+</div>
+       
+<div class="mySlides">
+  
+  <img src="image/aboutme.jpg" >
+  <div class="text">Murray St</div>
+    <div class="numbertext">4 / 5</div>
+</div>
+       
+<div class="mySlides">
+  
+  <iframe src="https://editor.p5js.org/jariclnnf/full/39QV1lBi7"></iframe>
+  <div class="text">Rainy Day P5.JS</div>
+    <div class="numbertext">5 / 5</div>
+</div>
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
     </body>
+<footer>
+    Copyright © JinFeng Lin
+</footer>
 </html>
